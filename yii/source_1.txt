@@ -38,13 +38,13 @@ public static function autoload($className)
 {
 	// use include so that the error PHP file may appear
 	if(isset(self::$classMap[$className]))
-		include(self::$classMap[$className]); //不用担心多次加载new 一个类多次 第一次找到了类的文件include 第二次不会触发
-	elseif(isset(self::$_coreClasses[$className]))
+		include(self::$classMap[$className]); //不用担心多次加载 new一个类多次 第一次找到了类的文件include 第二次不会触发
+	elseif(isset(self::$_coreClasses[$className])) //self::$_coreClasses定义了一些的class对应的class file path
 		include(YII_PATH.self::$_coreClasses[$className]);
 	else
 	{
 		// include class file relying on include_path
-		if(strpos($className,'\\')===false)  // class without namespace
+		if(strpos($className,'\\')===false)  // class without namespace 注意'\\' 而不是'\' 在''中表示'需要转移所以'\'会认为没有闭合的'
 		{
 			if(self::$enableIncludePath===false)
 			{
