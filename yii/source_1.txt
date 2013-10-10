@@ -1,0 +1,80 @@
+yii的单入口'index.php' or 'index-test.php'
+
+入口很简单找到framework里面的yii.php,再找到配置文件main.php
+初始化--Yii::createWebApplication($config)->run();
+
+framewokr/yii.php也很简单：
+require(dirname(__FILE__).'/YiiBase.php');
+class Yii extends YiiBase
+{
+}
+
+YiiBase.php 才是核心类
+开头定义一些列常量,为了避免冲突常量以'YII_'开头
+defined('YII_BEGIN_TIME') or define('YII_BEGIN_TIME',microtime(true));
+
+class YiiBase摘要
+public static $classMap=array();    //被autoloading机制使用 keys为类名 values为与之对应的class file path
+public static $enableInlcudePath=true;    //whether to rely on PHP include path to autoload class files
+
+很快找到index.php中的
+Yii::createWebApplication($config)->run();
+public static function createWebApplication($config=null)
+{
+	 return self::createApplication('CWebApplication',$config);
+}
+
+public static function createApplication($class,$config=null)
+{
+	return new $class($config);	//new CWebApplication($config)
+}
+
+这个时候你会发现找不到CWebApplication这个类
+于是找到文件底部,发现
+spl_autoload_register(array('YiiBase','autoload'));    //注册__autoload()函数
+require(YII_PATH.'/base/interfaces.php');    //接口
+
+public static function autoload($className)
+{
+	// use include so that the error PHP file may appear
+	if(isset(self::$classMap[$className]))
+		include(self::$classMap[$className]); //不用担心多次加载new 一个类多次 第一次找到了类的文件include 第二次不会触发
+	elseif(isset(self::$_coreClasses[$className]))
+		include(YII_PATH.self::$_coreClasses[$className]);
+	else
+	{
+		// include class file relying on include_path
+		if(strpos($className,'\\')===false)  // class without namespace
+		{
+			if(self::$enableIncludePath===false)
+			{
+				foreach(self::$_includePaths as $path)
+				{
+					$classFile=$path.DIRECTORY_SEPARATOR.$className.'.php';
+					if(is_file($classFile))
+					{
+						include($classFile);
+						if(YII_DEBUG && basename(realpath($classFile))!==$className.'.php')
+							throw new CException(Yii::t('yii','Class name "{class}" does not match class file "{file}".', array(
+								'{class}'=>$className,
+								'{file}'=>$classFile,
+							)));
+						break;
+					}
+				}
+			}
+			else
+				include($className.'.php');
+		}
+		else  // class name with namespace in PHP 5.3
+		{
+			$namespace=str_replace('\\','.',ltrim($className,'\\'));
+			if(($path=self::getPathOfAlias($namespace))!==false)
+				include($path.'.php');
+			else
+				return false;
+		}
+		return class_exists($className,false) || interface_exists($className,false);
+	}
+	return true;
+}
