@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script type="text/javascript">
+			var a = unescape(getCookie('aaa'));
+			document.write(a);
+			
+			function getCookie(name)
+			{
+				var strCookie = document.cookie;
+				var arrCookie = strCookie.split("; ");//notice the space after the ';'
+				for (var i=0;i<arrCookie.length;i++)
+				{
+					var arr = arrCookie[i].split("=");
+					if (arr[0] == name) return arr[1];
+				}
+				return "";
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

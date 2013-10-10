@@ -1,0 +1,1799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<vehicles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="LandRoverChinaInventoryExport.xsd">
+	
+		<vehicle 												
+			vin="SALSN2D46CA757625"
+			registration=""
+			regDate="2012-07-09 00:00:00"
+			mileage="1500"
+			isSelectEditionCertified="true"
+			retailPrice="1130000.00"
+			marque="Land Rover" 
+			series="揽胜运动版"
+			model="5.0 V8" 
+			modelYear="2012" 
+			variant="运动版" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Manual"
+			color="伯恩维尔棕" 
+			colorGroup="Brown/Beige" 
+			interiorColor="暖炭色" 
+			interiorMaterial="皮革" 
+			dealerName="宁波丰颐汽车销售有限公司" 
+			dealerId="999999" 
+			dealerCode="NBA" 
+			addressLine1="宁波市鄞州区下应北路358号" 
+			city="宁波" 
+			state="浙江" 
+			zipCode="" 
+			telephoneNumber1="0574-83098888" 
+			faxNumber="0574-83098810" 
+			webSiteAddress="" 
+			emailAddress="smallpigmin@126.com" 
+			longitude="120.5500" 
+			latitude="28.5100">
+		    <features>
+		    	
+		        <feature description="5.0V8汽油发动机" group="" importance="" priority="1" />
+		        <feature description="全地形反馈适应系统" group="" importance="" priority="2" />
+		        <feature description="电子空气悬挂系统EAS" group="" importance="" priority="3" />
+		        <feature description="第一排/第二排座椅加热功能" group="" importance="" priority="4" />
+		        <feature description="Harman/Kardon LOGIC7立体声环绕音响系统" group="" importance="" priority="5" />
+		        <feature description="电加热后视镜" group="" importance="" priority="6" />
+		        <feature description="19寸合金轮毂" group="" importance="" priority="7" />
+		        <feature description="可加热前、后风挡玻璃" group="" importance="" priority="8" />
+		        <feature description="后部泊车辅助系统" group="" importance="" priority="9" />
+		        <feature description="智能免钥匙系统" group="" importance="" priority="10" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4783" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2158" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1784" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2745" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="5.0 " unit="" />
+		        <techSpecItem specification="变速器形式" order="6" group="Tech Spec" groupOrder="1" value="6档手自一体" unit="" />
+		        <techSpecItem specification="燃油类型" order="7" group="Tech Spec" groupOrder="1" value="汽油" unit="" />
+		        <techSpecItem specification="驱动方式" order="8" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="9" group="Tech Spec" groupOrder="1" value="13.9" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="10" group="Tech Spec" groupOrder="1" value="276(375)/6500" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="2489" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="12" group="Tech Spec" groupOrder="1" value="88" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="13" group="Tech Spec" groupOrder="1" value="3070" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="14" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALAN2D42AA534281"
+			registration=""
+			regDate="2010-05-07 00:00:00"
+			mileage="38000"
+			isSelectEditionCertified="true"
+			retailPrice="790000.00"
+			marque="Land Rover" 
+			series="路虎发现"
+			model="5.0 V8" 
+			modelYear="2010" 
+			variant="运动版" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Manual"
+			color="终极黑" 
+			colorGroup="Black" 
+			interiorColor="暖炭色" 
+			interiorMaterial="皮革" 
+			dealerName="宁波丰颐汽车销售有限公司" 
+			dealerId="999999" 
+			dealerCode="NBA" 
+			addressLine1="宁波市鄞州区下应北路358号" 
+			city="宁波" 
+			state="浙江" 
+			zipCode="" 
+			telephoneNumber1="0574-83098888" 
+			faxNumber="0574-83098810" 
+			webSiteAddress="" 
+			emailAddress="smallpigmin@126.com" 
+			longitude="120.5500" 
+			latitude="28.5100">
+		    <features>
+		    	
+		        <feature description="5.0V8汽油发动机" group="" importance="" priority="1" />
+		        <feature description="第一排/第二排座椅加热功能" group="" importance="" priority="2" />
+		        <feature description="直纹胡桃木木纹装饰" group="" importance="" priority="3" />
+		        <feature description="大灯远光辅助系统" group="" importance="" priority="4" />
+		        <feature description="中央电子差速锁" group="" importance="" priority="5" />
+		        <feature description="EAS电子空气悬挂系统" group="" importance="" priority="6" />
+		        <feature description="全地形反馈适应系统包含新增的动态模式" group="" importance="" priority="7" />
+		        <feature description="中央电子差速锁" group="" importance="" priority="8" />
+		        <feature description="后座DVD娱乐系统" group="" importance="" priority="9" />
+		        <feature description="胎压监测系统" group="" importance="" priority="10" />
+		        <feature description="电加热后视镜" group="" importance="" priority="11" />
+		        <feature description="20寸合金轮毂" group="" importance="" priority="12" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4838" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2022" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1882" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2885" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="5.0 " unit="" />
+		        <techSpecItem specification="燃油类型" order="6" group="Tech Spec" groupOrder="1" value="汽油" unit="" />
+		        <techSpecItem specification="驱动方式" order="7" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="8" group="Tech Spec" groupOrder="1" value="14.1" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="9" group="Tech Spec" groupOrder="1" value="276(375)/6500" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/11_32.jpg" targetMedium="Standard_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/11_32.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/11_32.jpg" targetMedium="Supersize_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/11_32.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/11_32.jpg" targetMedium="Standard_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/11_32.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/11_32.jpg" targetMedium="Supersize_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/11_32.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/11_33.jpg" targetMedium="SupersizeThumbnail_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/11_33.jpg" targetMedium="Supersize_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/11_33.jpg" targetMedium="Thumbnail_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/11_33.jpg" targetMedium="Standard_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/11_33.jpg" targetMedium="SupersizeThumbnail_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/11_33.jpg" targetMedium="Supersize_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/11_33.jpg" targetMedium="Thumbnail_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/11_33.jpg" targetMedium="Standard_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/11_34.jpg" targetMedium="Standard_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/11_34.jpg" targetMedium="Thumbnail_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/11_34.jpg" targetMedium="Supersize_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/11_34.jpg" targetMedium="SupersizeThumbnail_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/11_34.jpg" targetMedium="Standard_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/11_34.jpg" targetMedium="Thumbnail_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/11_34.jpg" targetMedium="Supersize_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/11_34.jpg" targetMedium="SupersizeThumbnail_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/11_35.jpg" targetMedium="SupersizeThumbnail_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/11_35.jpg" targetMedium="Supersize_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/11_35.jpg" targetMedium="Thumbnail_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/11_35.jpg" targetMedium="Standard_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/11_35.jpg" targetMedium="SupersizeThumbnail_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/11_35.jpg" targetMedium="Supersize_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/11_35.jpg" targetMedium="Thumbnail_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/11_35.jpg" targetMedium="Standard_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/11_36.jpg" targetMedium="Standard_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/11_36.jpg" targetMedium="Thumbnail_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/11_36.jpg" targetMedium="Supersize_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/11_36.jpg" targetMedium="SupersizeThumbnail_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/11_36.jpg" targetMedium="Standard_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/11_36.jpg" targetMedium="Thumbnail_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/11_36.jpg" targetMedium="Supersize_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/11_36.jpg" targetMedium="SupersizeThumbnail_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/11_37.jpg" targetMedium="SupersizeThumbnail_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/11_37.jpg" targetMedium="Supersize_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/11_37.jpg" targetMedium="Thumbnail_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/11_37.jpg" targetMedium="Standard_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/11_37.jpg" targetMedium="SupersizeThumbnail_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/11_37.jpg" targetMedium="Supersize_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/11_37.jpg" targetMedium="Thumbnail_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/11_37.jpg" targetMedium="Standard_1024" shotType="6" />
+		                
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALFA2BBOAH192405"
+			registration=""
+			regDate="2010-06-23 00:00:00"
+			mileage="44352"
+			isSelectEditionCertified="true"
+			retailPrice="428000.00"
+			marque="Land Rover" 
+			series="路虎神行者"
+			model="2.2 eD4" 
+			modelYear="2010" 
+			variant="运动版" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Manual"
+			color="终级黑" 
+			colorGroup="Black" 
+			interiorColor="暖炭色" 
+			interiorMaterial="皮革" 
+			dealerName="宁波丰颐汽车销售有限公司" 
+			dealerId="999999" 
+			dealerCode="NBA" 
+			addressLine1="宁波市鄞州区下应北路358号" 
+			city="宁波" 
+			state="浙江" 
+			zipCode="" 
+			telephoneNumber1="0574-83098888" 
+			faxNumber="0574-83098810" 
+			webSiteAddress="" 
+			emailAddress="smallpigmin@126.com" 
+			longitude="120.5500" 
+			latitude="28.5100">
+		    <features>
+		    	
+		        <feature description="前置4缸2.2升增压柴油发动机（全新升级）" group="" importance="" priority="1" />
+		        <feature description="后部泊车辅助系统" group="" importance="" priority="2" />
+		        <feature description="加热雨刮器喷洗器" group="" importance="" priority="3" />
+		        <feature description="19寸合金轮毂" group="" importance="" priority="4" />
+		        <feature description="加热挡风玻璃" group="" importance="" priority="5" />
+		        <feature description="电动天窗+全景式观景顶窗" group="" importance="" priority="6" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="7" />
+		        <feature description="陡坡缓降系统" group="" importance="" priority="8" />
+		        <feature description="全地形反馈适应系统" group="" importance="" priority="9" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4501" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="1910" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1740" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2659" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="2.2 " unit="" />
+		        <techSpecItem specification="燃油类型" order="6" group="Tech Spec" groupOrder="1" value="柴油" unit="" />
+		        <techSpecItem specification="驱动方式" order="7" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="8" group="Tech Spec" groupOrder="1" value="8.6" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="9" group="Tech Spec" groupOrder="1" value="118(160)/4000" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="10" group="Tech Spec" groupOrder="1" value="1770" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="11" group="Tech Spec" groupOrder="1" value="68" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="12" group="Tech Spec" groupOrder="1" value="2505" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="13" group="Tech Spec" groupOrder="1" value="42" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/12_38.jpg" targetMedium="Standard_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/12_38.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/12_38.jpg" targetMedium="Supersize_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/12_38.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/12_38.jpg" targetMedium="Standard_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/12_38.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/12_38.jpg" targetMedium="Supersize_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/12_38.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/12_39.jpg" targetMedium="SupersizeThumbnail_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/12_39.jpg" targetMedium="Supersize_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/12_39.jpg" targetMedium="Thumbnail_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/12_39.jpg" targetMedium="Standard_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/12_39.jpg" targetMedium="SupersizeThumbnail_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/12_39.jpg" targetMedium="Supersize_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/12_39.jpg" targetMedium="Thumbnail_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/12_39.jpg" targetMedium="Standard_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/12_40.jpg" targetMedium="Standard_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/12_40.jpg" targetMedium="Thumbnail_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/12_40.jpg" targetMedium="Supersize_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/12_40.jpg" targetMedium="SupersizeThumbnail_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/12_40.jpg" targetMedium="Standard_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/12_40.jpg" targetMedium="Thumbnail_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/12_40.jpg" targetMedium="Supersize_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/12_40.jpg" targetMedium="SupersizeThumbnail_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/12_41.jpg" targetMedium="SupersizeThumbnail_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/12_41.jpg" targetMedium="Supersize_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/12_41.jpg" targetMedium="Thumbnail_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/12_41.jpg" targetMedium="Standard_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/12_41.jpg" targetMedium="SupersizeThumbnail_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/12_41.jpg" targetMedium="Supersize_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/12_41.jpg" targetMedium="Thumbnail_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/12_41.jpg" targetMedium="Standard_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/12_42.jpg" targetMedium="Standard_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/12_42.jpg" targetMedium="Thumbnail_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/12_42.jpg" targetMedium="Supersize_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/12_42.jpg" targetMedium="SupersizeThumbnail_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/12_42.jpg" targetMedium="Standard_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/12_42.jpg" targetMedium="Thumbnail_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/12_42.jpg" targetMedium="Supersize_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/12_42.jpg" targetMedium="SupersizeThumbnail_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/12_43.jpg" targetMedium="SupersizeThumbnail_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/12_43.jpg" targetMedium="Supersize_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/12_43.jpg" targetMedium="Thumbnail_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/12_43.jpg" targetMedium="Standard_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/12_43.jpg" targetMedium="SupersizeThumbnail_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/12_43.jpg" targetMedium="Supersize_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/12_43.jpg" targetMedium="Thumbnail_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/12_43.jpg" targetMedium="Standard_1024" shotType="6" />
+		                
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALSN2D46BA706799"
+			registration=""
+			regDate="2011-07-29 00:00:00"
+			mileage="0"
+			isSelectEditionCertified="true"
+			retailPrice="1280000.00"
+			marque="Land Rover" 
+			series="揽胜运动版"
+			model="5.0 V8" 
+			modelYear="2011" 
+			variant="运动版" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Manual"
+			color="绿色" 
+			colorGroup="Grey" 
+			interiorColor="奥克尼灰" 
+			interiorMaterial="皮革" 
+			dealerName="上海永达捷豹路虎汽车销售服务有限公司" 
+			dealerId="9999912" 
+			dealerCode="SHG" 
+			addressLine1="上海市浦东新区龙东大道2777号" 
+			city="上海" 
+			state="上海" 
+			zipCode="" 
+			telephoneNumber1="021-58986789" 
+			faxNumber="021-20242716" 
+			webSiteAddress="" 
+			emailAddress="jack_zhao@163.com" 
+			longitude="121.6307" 
+			latitude="31.2251">
+		    <features>
+		    	
+		        <feature description="电加热后视镜" group="" importance="" priority="1" />
+		        <feature description="电动后挡板" group="" importance="" priority="2" />
+		        <feature description="后部泊车辅助系统" group="" importance="" priority="3" />
+		        <feature description="加热雨刮器喷洗器" group="" importance="" priority="4" />
+		        <feature description="可加热座椅和方向盘" group="" importance="" priority="5" />
+		        <feature description="加热挡风玻璃" group="" importance="" priority="6" />
+		        <feature description="19寸合金轮毂" group="" importance="" priority="7" />
+		        <feature description="带驱动选择系统的六速自动变速箱" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4783" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2158" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1784" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2745" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="5.0 " unit="" />
+		        <techSpecItem specification="燃油类型" order="6" group="Tech Spec" groupOrder="1" value="汽油" unit="" />
+		        <techSpecItem specification="驱动方式" order="7" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="8" group="Tech Spec" groupOrder="1" value="13.9" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="9" group="Tech Spec" groupOrder="1" value="276(375)/6500" unit="" />
+		        <techSpecItem specification="整备质量(kg)" order="10" group="Tech Spec" groupOrder="1" value="2489" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALSN2D4XAA257268"
+			registration=""
+			regDate="2010-12-30 00:00:00"
+			mileage="30000"
+			isSelectEditionCertified="true"
+			retailPrice="998000.00"
+			marque="Land Rover" 
+			series="揽胜运动版"
+			model="5.0 V8" 
+			modelYear="2011" 
+			variant="运动版" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Manual"
+			color="黑灰" 
+			colorGroup="Black" 
+			interiorColor="奥克尼灰" 
+			interiorMaterial="皮革" 
+			dealerName="上海永达捷豹路虎汽车销售服务有限公司" 
+			dealerId="9999912" 
+			dealerCode="SHG" 
+			addressLine1="上海市浦东新区龙东大道2777号" 
+			city="上海" 
+			state="上海" 
+			zipCode="" 
+			telephoneNumber1="021-58986789" 
+			faxNumber="021-20242716" 
+			webSiteAddress="" 
+			emailAddress="jack_zhao@163.com" 
+			longitude="121.6307" 
+			latitude="31.2251">
+		    <features>
+		    	
+		        <feature description="加热雨刮器喷洗器" group="" importance="" priority="1" />
+		        <feature description="电动后挡板" group="" importance="" priority="2" />
+		        <feature description="后部泊车辅助系统" group="" importance="" priority="3" />
+		        <feature description="可加热座椅和方向盘" group="" importance="" priority="4" />
+		        <feature description="加热挡风玻璃" group="" importance="" priority="5" />
+		        <feature description="19寸合金轮毂" group="" importance="" priority="6" />
+		        <feature description="电加热后视镜" group="" importance="" priority="7" />
+		        <feature description="带驱动选择系统的六速自动变速箱" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4783" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2004" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1874" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2745" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="5.0 " unit="" />
+		        <techSpecItem specification="燃油类型" order="6" group="Tech Spec" groupOrder="1" value="汽油" unit="" />
+		        <techSpecItem specification="驱动方式" order="7" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="8" group="Tech Spec" groupOrder="1" value="13.9" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="9" group="Tech Spec" groupOrder="1" value="276(375)/6500" unit="" />
+		        <techSpecItem specification="整备质量(kg)" order="10" group="Tech Spec" groupOrder="1" value="2557" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="11" group="Tech Spec" groupOrder="1" value="88" unit="" />
+		        <techSpecItem specification="载重质量(kg)" order="12" group="Tech Spec" groupOrder="1" value="3070" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="13" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALMN1D40CA370538"
+			registration=""
+			regDate="2012-01-07 00:00:00"
+			mileage="1300"
+			isSelectEditionCertified="true"
+			retailPrice="1650000.00"
+			marque="Land Rover" 
+			series="揽胜"
+			model="5.0 V8" 
+			modelYear="2012" 
+			variant="运动版" 
+			bodyStyle="软背" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="白色" 
+			colorGroup="White" 
+			interiorColor="大卖色" 
+			interiorMaterial="皮革" 
+			dealerName="温州东昌实业有限公司" 
+			dealerId="9999913" 
+			dealerCode="WZA" 
+			addressLine1="温州经济技术开发区高新园区高一路178号" 
+			city="温州" 
+			state="浙江" 
+			zipCode="" 
+			telephoneNumber1="0577-86586830" 
+			faxNumber="0577-86586629" 
+			webSiteAddress="" 
+			emailAddress="zlf@wzdcauto.com" 
+			longitude="120.7231" 
+			latitude="27.9701">
+		    <features>
+		    	
+		        <feature description="电加热后视镜" group="" importance="" priority="1" />
+		        <feature description="带驱动选择系统的六速自动变速箱" group="" importance="" priority="2" />
+		        <feature description="加热雨刮器喷洗器" group="" importance="" priority="3" />
+		        <feature description="后部泊车辅助系统" group="" importance="" priority="4" />
+		        <feature description="可加热座椅和方向盘" group="" importance="" priority="5" />
+		        <feature description="加热挡风玻璃" group="" importance="" priority="6" />
+		        <feature description="20寸合金轮毂" group="" importance="" priority="7" />
+		        <feature description="巡航定速" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4972" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2034" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1877" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2880" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="5.0 " unit="" />
+		        <techSpecItem specification="燃油类型" order="6" group="Tech Spec" groupOrder="1" value="汽油" unit="" />
+		        <techSpecItem specification="驱动方式" order="7" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="8" group="Tech Spec" groupOrder="1" value="15" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="9" group="Tech Spec" groupOrder="1" value="375(510)/6000-6500" unit="" />
+		        <techSpecItem specification="整备质量(kg)" order="10" group="Tech Spec" groupOrder="1" value="2810" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="11" group="Tech Spec" groupOrder="1" value="104" unit="" />
+		        <techSpecItem specification="载重质量(kg)" order="12" group="Tech Spec" groupOrder="1" value="3070" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="13" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/18_58.jpg" targetMedium="Standard_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/18_58.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/18_58.jpg" targetMedium="Supersize_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/18_58.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/18_58.jpg" targetMedium="Standard_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/18_58.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/18_58.jpg" targetMedium="Supersize_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/18_58.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/18_59.jpg" targetMedium="SupersizeThumbnail_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/18_59.jpg" targetMedium="Supersize_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/18_59.jpg" targetMedium="Thumbnail_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/18_59.jpg" targetMedium="Standard_1280" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/18_59.jpg" targetMedium="SupersizeThumbnail_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/18_59.jpg" targetMedium="Supersize_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/18_59.jpg" targetMedium="Thumbnail_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/18_59.jpg" targetMedium="Standard_1024" shotType="2" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/18_60.jpg" targetMedium="Standard_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/18_60.jpg" targetMedium="Thumbnail_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/18_60.jpg" targetMedium="Supersize_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/18_60.jpg" targetMedium="SupersizeThumbnail_1024" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/18_60.jpg" targetMedium="Standard_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/18_60.jpg" targetMedium="Thumbnail_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/18_60.jpg" targetMedium="Supersize_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/18_60.jpg" targetMedium="SupersizeThumbnail_1280" shotType="3" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/18_61.jpg" targetMedium="SupersizeThumbnail_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/18_61.jpg" targetMedium="Supersize_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/18_61.jpg" targetMedium="Thumbnail_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/18_61.jpg" targetMedium="Standard_1280" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/18_61.jpg" targetMedium="SupersizeThumbnail_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/18_61.jpg" targetMedium="Supersize_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/18_61.jpg" targetMedium="Thumbnail_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/18_61.jpg" targetMedium="Standard_1024" shotType="4" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/18_62.jpg" targetMedium="Standard_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/18_62.jpg" targetMedium="Thumbnail_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/18_62.jpg" targetMedium="Supersize_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/18_62.jpg" targetMedium="SupersizeThumbnail_1024" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/18_62.jpg" targetMedium="Standard_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/18_62.jpg" targetMedium="Thumbnail_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/18_62.jpg" targetMedium="Supersize_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/18_62.jpg" targetMedium="SupersizeThumbnail_1280" shotType="5" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1280/18_63.jpg" targetMedium="SupersizeThumbnail_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1280/18_63.jpg" targetMedium="Supersize_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1280/18_63.jpg" targetMedium="Thumbnail_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1280/18_63.jpg" targetMedium="Standard_1280" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/SupersizeThumbnail_1024/18_63.jpg" targetMedium="SupersizeThumbnail_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Supersize_1024/18_63.jpg" targetMedium="Supersize_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Thumbnail_1024/18_63.jpg" targetMedium="Thumbnail_1024" shotType="6" />
+		        <image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/Standard_1024/18_63.jpg" targetMedium="Standard_1024" shotType="6" />
+		                
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SAJAA22H2BFV21819"
+			registration=""
+			regDate="2011-07-27 00:00:00"
+			mileage="9862"
+			isSelectEditionCertified="true"
+			retailPrice="682000.00"
+			marque="Land Rover" 
+			series="揽胜运动版"
+			model="5.0 V8" 
+			modelYear="2011" 
+			variant="运动版" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Automatic"
+			color="终极黑" 
+			colorGroup="Black" 
+			interiorColor="小麦色" 
+			interiorMaterial="皮革" 
+			dealerName="北京燕英捷汽车销售服务有限公司" 
+			dealerId="999997" 
+			dealerCode="BJI" 
+			addressLine1="北京市朝阳区金盏乡东苇路金港汽车公园C区9号" 
+			city="北京" 
+			state="北京" 
+			zipCode="" 
+			telephoneNumber1="010-64306172" 
+			faxNumber="010-64306155" 
+			webSiteAddress="" 
+			emailAddress="shangzeli@yanjunauto.com" 
+			longitude="116.5637" 
+			latitude="40.0170">
+		    <features>
+		    	
+		        <feature description="智能型雨量感应式雨刮器" group="" importance="" priority="1" />
+		        <feature description="CMMB数字电视" group="" importance="" priority="2" />
+		        <feature description="智能泊车辅助系统" group="" importance="" priority="3" />
+		        <feature description="ARM电动防侧倾系统" group="" importance="" priority="4" />
+		        <feature description="8英寸高分辨率触摸屏" group="" importance="" priority="5" />
+		        <feature description="825瓦Meridian立体声音响系统" group="" importance="" priority="6" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALAN2D44CA611221"
+			registration=""
+			regDate="2012-02-20 00:00:00"
+			mileage="5706"
+			isSelectEditionCertified="true"
+			retailPrice="988000.00"
+			marque="Land Rover" 
+			series="路虎发现"
+			model="5.0 V8" 
+			modelYear="2012" 
+			variant="SE" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="富士白" 
+			colorGroup="White" 
+			interiorColor="黑色" 
+			interiorMaterial="皮革" 
+			dealerName="上海天华汽车销售有限公司" 
+			dealerId="999993" 
+			dealerCode="SHK" 
+			addressLine1="上海市吴中路1750号" 
+			city="上海" 
+			state="上海" 
+			zipCode="" 
+			telephoneNumber1="021-64465555" 
+			faxNumber="021-21201103" 
+			webSiteAddress="" 
+			emailAddress="weiqingtu.jlr@gmail.com" 
+			longitude="121.3665" 
+			latitude="31.1707">
+		    <features>
+		    	
+		        <feature description="3D车载导航系统" group="" importance="" priority="1" />
+		        <feature description="8英寸高分辨率触摸屏" group="" importance="" priority="2" />
+		        <feature description="HAS坡道启动辅助系统" group="" importance="" priority="3" />
+		        <feature description="TPMS胎压监测系统" group="" importance="" priority="4" />
+		        <feature description="全地形反馈适应系统" group="" importance="" priority="5" />
+		        <feature description="全时四驱系统" group="" importance="" priority="6" />
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="7" />
+		        <feature description="全车侧安全气囊" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4838" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2022" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1882" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2885" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="5000" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9.3" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="276(375)/6500" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="2616" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="82" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="3240" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALFA2BGXCH283566"
+			registration=""
+			regDate="2012-06-06 00:00:00"
+			mileage="4327"
+			isSelectEditionCertified="true"
+			retailPrice="470000.00"
+			marque="Land Rover" 
+			series="路虎神行者"
+			model="2.0i" 
+			modelYear="2012" 
+			variant="SE" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="中国红" 
+			colorGroup="Red" 
+			interiorColor="黑色" 
+			interiorMaterial="皮革" 
+			dealerName="无锡通孚祥汽车销售服务有限公司" 
+			dealerId="9999917" 
+			dealerCode="WXA" 
+			addressLine1="无锡市新区行创四路16-8号" 
+			city="无锡" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="18661000300" 
+			faxNumber="0510-81818555" 
+			webSiteAddress="" 
+			emailAddress="jill@jaguarlandrover-wx.com.com" 
+			longitude="31.5524" 
+			latitude="12.0375">
+		    <features>
+		    	
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="1" />
+		        <feature description="前部/后部泊车距离控制系统" group="" importance="" priority="2" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="3" />
+		        <feature description="全时四驱系统" group="" importance="" priority="4" />
+		        <feature description="全地形反馈适应系统" group="" importance="" priority="5" />
+		        <feature description="六速手自一体变速箱（带Commandshift功能）" group="" importance="" priority="6" />
+		        <feature description="全尺寸铝合金备胎" group="" importance="" priority="7" />
+		        <feature description="带视野包，19寸大轮毂" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4500" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2180" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1765" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="2000" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9.6" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="177(240)/5500" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1775" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="70" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="2505" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="42" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALFA2BA5BH278978"
+			registration=""
+			regDate="2012-03-02 00:00:00"
+			mileage="12300"
+			isSelectEditionCertified="true"
+			retailPrice="458000.00"
+			marque="Land Rover" 
+			series="路虎神行者"
+			model="3.2 i6" 
+			modelYear="2011" 
+			variant="运动版" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="富士白" 
+			colorGroup="White" 
+			interiorColor="黑檀木" 
+			interiorMaterial="皮革" 
+			dealerName="绍兴英之杰汇豪汽车销售服务有限公司" 
+			dealerId="9999918" 
+			dealerCode="SXA" 
+			addressLine1="浙江省绍兴县金柯桥大道与柯海路交叉口" 
+			city="绍兴" 
+			state="浙江" 
+			zipCode="" 
+			telephoneNumber1="13626859590" 
+			faxNumber="0575-81106921" 
+			webSiteAddress="" 
+			emailAddress="wudaoming@inchcape.com.cn" 
+			longitude="30.1020" 
+			latitude="12.0604">
+		    <features>
+		    	
+		        <feature description="CMMB数字电视" group="" importance="" priority="1" />
+		        <feature description="电动折叠外后视镜（带加热、记忆功能）" group="" importance="" priority="2" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="3" />
+		        <feature description="电动天窗+Alpine全景式观景顶窗" group="" importance="" priority="4" />
+		        <feature description="全地形反馈适应系统" group="" importance="" priority="5" />
+		        <feature description="前后电动窗" group="" importance="" priority="6" />
+		        <feature description="前排正面/侧面安全气囊" group="" importance="" priority="7" />
+		        <feature description="司机和乘客安全气囊" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4500" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2005" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1765" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="3192" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="11.6" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="171(233)/6300" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1775" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="70" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="2505" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="42" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALAN2F4XCA613861"
+			registration=""
+			regDate="2012-03-16 00:00:00"
+			mileage="3080"
+			isSelectEditionCertified="true"
+			retailPrice="760000.00"
+			marque="Land Rover" 
+			series="路虎发现"
+			model="3.0 SDV6" 
+			modelYear="2012" 
+			variant="HSE" 
+			bodyStyle="旅行车" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="白色" 
+			colorGroup="White" 
+			interiorColor="黑色" 
+			interiorMaterial="皮革" 
+			dealerName="无锡通孚祥汽车销售服务有限公司" 
+			dealerId="9999917" 
+			dealerCode="WXA" 
+			addressLine1="无锡市新区行创四路16-8号" 
+			city="无锡" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="18661000300" 
+			faxNumber="0510-81818555" 
+			webSiteAddress="" 
+			emailAddress="jill@jaguarlandrover-wx.com.com" 
+			longitude="31.5524" 
+			latitude="12.0375">
+		    <features>
+		    	
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="1" />
+		        <feature description="HDC陡坡缓降系统（带GRC坡度释放控制功能）" group="" importance="" priority="2" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="3" />
+		        <feature description="全时四驱系统" group="" importance="" priority="4" />
+		        <feature description="全地形反馈适应系统" group="" importance="" priority="5" />
+		        <feature description="六速手自一体变速箱（带Commandshift功能）" group="" importance="" priority="6" />
+		        <feature description="智能泊车辅助系统" group="" importance="" priority="7" />
+		        <feature description="全景式观景天窗" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4838" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2022" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1882" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2885" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="2993" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9.3" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="180(245)/4000" unit="" />
+		        <techSpecItem specification="整备质量(kg)" order="9" group="Tech Spec" groupOrder="1" value="2650" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="82" unit="" />
+		        <techSpecItem specification="载重质量(kg)" order="11" group="Tech Spec" groupOrder="1" value="3240" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALSN2D43CA727711"
+			registration=""
+			regDate="2012-01-07 00:00:00"
+			mileage="2100"
+			isSelectEditionCertified="true"
+			retailPrice="1183000.00"
+			marque="Land Rover" 
+			series="路虎揽胜运动版"
+			model="5.0 V8" 
+			modelYear="2012" 
+			variant="HSE" 
+			bodyStyle="旅行车" 
+			doors="5" 
+			transmission="Tiptronic"
+			color="苏门答腊黑" 
+			colorGroup="Black" 
+			interiorColor="杏色" 
+			interiorMaterial="皮革" 
+			dealerName="宁波丰颐汽车销售有限公司" 
+			dealerId="999999" 
+			dealerCode="NBA" 
+			addressLine1="宁波市鄞州区下应北路358号" 
+			city="宁波" 
+			state="浙江" 
+			zipCode="" 
+			telephoneNumber1="0574-83098888" 
+			faxNumber="0574-83098810" 
+			webSiteAddress="" 
+			emailAddress="smallpigmin@126.com" 
+			longitude="120.5500" 
+			latitude="28.5100">
+		    <features>
+		    	
+		        <feature description="真皮座椅电动调节，带加热功能" group="" importance="" priority="1" />
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="2" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="3" />
+		        <feature description="全地形反馈适应系统" group="" importance="" priority="4" />
+		        <feature description="电动折叠外后视镜（带加热、记忆功能）" group="" importance="" priority="5" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="6" />
+		        <feature description="雨量感应式雨刮器" group="" importance="" priority="7" />
+		        <feature description="EAS电子空气悬挂系统" group="" importance="" priority="8" />
+		        <feature description="全时四驱系统" group="" importance="" priority="9" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4783" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2158" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1784" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2745" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="5000" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="13.9" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="276(375)/6500" unit="" />
+		        <techSpecItem specification="整备质量(kg)" order="9" group="Tech Spec" groupOrder="1" value="2489" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="88" unit="" />
+		        <techSpecItem specification="载重质量(kg)" order="11" group="Tech Spec" groupOrder="1" value="3070" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALAN2F44CA599701"
+			registration=""
+			regDate="2011-11-25 00:00:00"
+			mileage="6452"
+			isSelectEditionCertified="true"
+			retailPrice="848000.00"
+			marque="Land Rover" 
+			series="路虎发现"
+			model="3.0 TDV6" 
+			modelYear="2011" 
+			variant="HSE" 
+			bodyStyle="多功能旅行车" 
+			doors="5" 
+			transmission="Tiptronic"
+			color="终级黑" 
+			colorGroup="Black" 
+			interiorColor="黑色" 
+			interiorMaterial="皮革" 
+			dealerName="苏州中捷汽车销售服务有限公司" 
+			dealerId="9999919" 
+			dealerCode="SUB" 
+			addressLine1="苏州市吴江市江陵东路9号" 
+			city="苏州" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="13771829153" 
+			faxNumber="0512-82869099" 
+			webSiteAddress="" 
+			emailAddress="dezhang.wei@szzj-jlr.com" 
+			longitude="40.0170" 
+			latitude="11.6564">
+		    <features>
+		    	
+		        <feature description="智能型雨量感应式雨刮器" group="" importance="" priority="1" />
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="2" />
+		        <feature description="电动折叠外后视镜（带加热、记忆功能）" group="" importance="" priority="3" />
+		        <feature description="自动恒温控制系统" group="" importance="" priority="4" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="5" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="6" />
+		        <feature description="雾灯" group="" importance="" priority="7" />
+		        <feature description="电动折叠外后视镜（带加热、记忆功能）" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4938" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2176" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1882" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2885" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="2993" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9.3" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="180(245)/4000" unit="" />
+		        <techSpecItem specification="整备质量(kg)" order="9" group="Tech Spec" groupOrder="1" value="2650" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="82" unit="" />
+		        <techSpecItem specification="载重质量(kg)" order="11" group="Tech Spec" groupOrder="1" value="3240" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALFA2BA8BH272267"
+			registration=""
+			regDate="2011-08-23 00:00:00"
+			mileage="4000"
+			isSelectEditionCertified="true"
+			retailPrice="488000.00"
+			marque="Land Rover" 
+			series="路虎神行者"
+			model="3.2 i6" 
+			modelYear="2010" 
+			variant="SE" 
+			bodyStyle="旅行车" 
+			doors="5" 
+			transmission="Tiptronic"
+			color="终极黑" 
+			colorGroup="Black" 
+			interiorColor="墨尼灰" 
+			interiorMaterial="皮革" 
+			dealerName="上海永达捷豹路虎汽车销售服务有限公司" 
+			dealerId="9999912" 
+			dealerCode="SHG" 
+			addressLine1="上海市浦东新区龙东大道2777号" 
+			city="上海" 
+			state="上海" 
+			zipCode="" 
+			telephoneNumber1="021-58986789" 
+			faxNumber="021-20242716" 
+			webSiteAddress="" 
+			emailAddress="jack_zhao@163.com" 
+			longitude="121.6307" 
+			latitude="31.2251">
+		    <features>
+		    	
+		        <feature description="EPB电子驻车制动系统" group="" importance="" priority="1" />
+		        <feature description="ARM电动防侧倾系统" group="" importance="" priority="2" />
+		        <feature description="825瓦Meridian立体声音响系统" group="" importance="" priority="3" />
+		        <feature description="EBA电子紧急制动辅助系统" group="" importance="" priority="4" />
+		        <feature description="六速手自一体变速箱（带Commandshift功能）" group="" importance="" priority="5" />
+		        <feature description="GPS导航系统" group="" importance="" priority="6" />
+		        <feature description="DSC动态稳定控制系统和侧倾稳定控制系统(RSC)" group="" importance="" priority="7" />
+		        <feature description="全自动空调（带后座空调出风口）" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4500" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2005" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1765" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="3192" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="11.6" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="171(233)/6300" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1770" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="70" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="2505" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="42" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALVA2BG1CH605331"
+			registration=""
+			regDate="2011-10-20 00:00:00"
+			mileage="8000"
+			isSelectEditionCertified="true"
+			retailPrice="575000.00"
+			marque="Land Rover" 
+			series="路虎揽胜极光EVOQUE"
+			model="2.0i" 
+			modelYear="2011" 
+			variant="耀动版" 
+			bodyStyle="旅行车" 
+			doors="5" 
+			transmission="Tiptronic"
+			color="苏门答腊黑" 
+			colorGroup="Black" 
+			interiorColor="墨尼灰" 
+			interiorMaterial="皮革" 
+			dealerName="上海永达捷豹路虎汽车销售服务有限公司" 
+			dealerId="9999912" 
+			dealerCode="SHG" 
+			addressLine1="上海市浦东新区龙东大道2777号" 
+			city="上海" 
+			state="上海" 
+			zipCode="" 
+			telephoneNumber1="021-58986789" 
+			faxNumber="021-20242716" 
+			webSiteAddress="" 
+			emailAddress="jack_zhao@163.com" 
+			longitude="121.6307" 
+			latitude="31.2251">
+		    <features>
+		    	
+		        <feature description="智能泊车辅助系统" group="" importance="" priority="1" />
+		        <feature description="EPB电子驻车制动系统" group="" importance="" priority="2" />
+		        <feature description="可加热前风挡玻璃（带风窗喷嘴加热功能）" group="" importance="" priority="3" />
+		        <feature description="825瓦Meridian立体声音响系统" group="" importance="" priority="4" />
+		        <feature description="全自动空调（带后座空调出风口）" group="" importance="" priority="5" />
+		        <feature description="HDC陡坡缓降系统" group="" importance="" priority="6" />
+		        <feature description="前排正面/侧面安全气囊" group="" importance="" priority="7" />
+		        <feature description="变速换挡拨片" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4365" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="1965" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1635" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="1999" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="177(240)/5500 " unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1640" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="70" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="2505" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALVA1BGXCH600641"
+			registration=""
+			regDate="2011-11-03 00:00:00"
+			mileage="7500"
+			isSelectEditionCertified="true"
+			retailPrice="568000.00"
+			marque="Land Rover" 
+			series="路虎揽胜极光EVOQUE"
+			model="2.0i" 
+			modelYear="2011" 
+			variant="耀动版" 
+			bodyStyle="旅行车" 
+			doors="5" 
+			transmission="Tiptronic"
+			color="沙滩金" 
+			colorGroup="Other" 
+			interiorColor="墨尼灰" 
+			interiorMaterial="皮革" 
+			dealerName="上海永达捷豹路虎汽车销售服务有限公司" 
+			dealerId="9999912" 
+			dealerCode="SHG" 
+			addressLine1="上海市浦东新区龙东大道2777号" 
+			city="上海" 
+			state="上海" 
+			zipCode="" 
+			telephoneNumber1="021-58986789" 
+			faxNumber="021-20242716" 
+			webSiteAddress="" 
+			emailAddress="jack_zhao@163.com" 
+			longitude="121.6307" 
+			latitude="31.2251">
+		    <features>
+		    	
+		        <feature description="825瓦Meridian立体声音响系统" group="" importance="" priority="1" />
+		        <feature description="EBA电子紧急制动辅助系统" group="" importance="" priority="2" />
+		        <feature description="DSC动态稳定控制系统和侧倾稳定控制系统(RSC)" group="" importance="" priority="3" />
+		        <feature description="全自动空调（带后座空调出风口）" group="" importance="" priority="4" />
+		        <feature description="EPB电子驻车制动系统" group="" importance="" priority="5" />
+		        <feature description="ARM电动防侧倾系统" group="" importance="" priority="6" />
+		        <feature description="六速手自一体变速箱（带Commandshift功能）" group="" importance="" priority="7" />
+		        <feature description="GPS导航系统" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4365" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="1965" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1635" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="1999" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="177(240)/5500 " unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1640" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="70" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="2505" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALVA2BG6CH672894"
+			registration=""
+			regDate="2012-06-13 00:00:00"
+			mileage="6500"
+			isSelectEditionCertified="true"
+			retailPrice="588000.00"
+			marque="Land Rover" 
+			series="路虎揽胜极光EVOQUE"
+			model="2.0i" 
+			modelYear="2011" 
+			variant="耀动版" 
+			bodyStyle="旅行车" 
+			doors="5" 
+			transmission="Tiptronic"
+			color="绿色" 
+			colorGroup="Green" 
+			interiorColor="墨尼灰" 
+			interiorMaterial="皮革" 
+			dealerName="上海永达捷豹路虎汽车销售服务有限公司" 
+			dealerId="9999912" 
+			dealerCode="SHG" 
+			addressLine1="上海市浦东新区龙东大道2777号" 
+			city="上海" 
+			state="上海" 
+			zipCode="" 
+			telephoneNumber1="021-58986789" 
+			faxNumber="021-20242716" 
+			webSiteAddress="" 
+			emailAddress="jack_zhao@163.com" 
+			longitude="121.6307" 
+			latitude="31.2251">
+		    <features>
+		    	
+		        <feature description="六速手自一体变速箱（带Commandshift功能）" group="" importance="" priority="1" />
+		        <feature description="GPS导航系统" group="" importance="" priority="2" />
+		        <feature description="EPB电子驻车制动系统" group="" importance="" priority="3" />
+		        <feature description="ARM电动防侧倾系统" group="" importance="" priority="4" />
+		        <feature description="825瓦Meridian立体声音响系统" group="" importance="" priority="5" />
+		        <feature description="EBA电子紧急制动辅助系统" group="" importance="" priority="6" />
+		        <feature description="DSC动态稳定控制系统和侧倾稳定控制系统(RSC)" group="" importance="" priority="7" />
+		        <feature description="全自动空调（带后座空调出风口）" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4365" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="1965" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1635" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="1999" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="177(240)/5500 " unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1640" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="70" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="2505" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALAN2D42CA605871"
+			registration=""
+			regDate="2012-01-19 00:00:00"
+			mileage="2807"
+			isSelectEditionCertified="false"
+			retailPrice="1188000.00"
+			marque="Land Rover" 
+			series="路虎发现"
+			model="5.0 V8" 
+			modelYear="2011" 
+			variant="HSE" 
+			bodyStyle="带驾驶室底盘" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="奈良青铜" 
+			colorGroup="Grey" 
+			interiorColor="黑色" 
+			interiorMaterial="皮革" 
+			dealerName="常州路捷汽车销售服务有限公司" 
+			dealerId="9999920" 
+			dealerCode="CZA" 
+			addressLine1="江苏省常州市武进汽车城B区12号" 
+			city="常州" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="13701501679" 
+			faxNumber="0519-89801515" 
+			webSiteAddress="" 
+			emailAddress="zhoulei@jsmdag.com" 
+			longitude="31.6966" 
+			latitude="11.9961">
+		    <features>
+		    	
+		        <feature description="智能型雨量感应式雨刮器" group="" importance="" priority="1" />
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="2" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="3" />
+		        <feature description="电动天窗+Alpine全景式观景顶窗" group="" importance="" priority="4" />
+		        <feature description="电加热后视镜" group="" importance="" priority="5" />
+		        <feature description="自动恒温控制系统" group="" importance="" priority="6" />
+		        <feature description="真皮座椅电动调节，带加热功能" group="" importance="" priority="7" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4838" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2176" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1882" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2885" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="4999" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="14.1" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="276(375)/6500" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="2616" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="82" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="3240" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALMN1H47CA371034"
+			registration=""
+			regDate="2012-01-19 00:00:00"
+			mileage="1600"
+			isSelectEditionCertified="false"
+			retailPrice="1888000.00"
+			marque="Land Rover" 
+			series="路虎揽胜"
+			model="4.4 V8" 
+			modelYear="2011" 
+			variant="豪华版" 
+			bodyStyle="硬顶" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="黑色" 
+			colorGroup="Black" 
+			interiorColor="黑色" 
+			interiorMaterial="皮革" 
+			dealerName="常州路捷汽车销售服务有限公司" 
+			dealerId="9999920" 
+			dealerCode="CZA" 
+			addressLine1="江苏省常州市武进汽车城B区12号" 
+			city="常州" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="13701501679" 
+			faxNumber="0519-89801515" 
+			webSiteAddress="" 
+			emailAddress="zhoulei@jsmdag.com" 
+			longitude="31.6966" 
+			latitude="11.9961">
+		    <features>
+		    	
+		        <feature description="智能型雨量感应式雨刮器" group="" importance="" priority="1" />
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="2" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="3" />
+		        <feature description="EBA电子紧急制动辅助系统" group="" importance="" priority="4" />
+		        <feature description="电加热后视镜" group="" importance="" priority="5" />
+		        <feature description="自动恒温控制系统" group="" importance="" priority="6" />
+		        <feature description="真皮座椅电动调节，带加热功能" group="" importance="" priority="7" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4972" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2034" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1877" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2880" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="4367" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="9.4" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="230(313)/4000" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="2744" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="104" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="3200" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALSN2F47CA732584"
+			registration=""
+			regDate="2012-01-19 00:00:00"
+			mileage="2435"
+			isSelectEditionCertified="false"
+			retailPrice="928000.00"
+			marque="Land Rover" 
+			series="路虎揽胜运动版"
+			model="3.0 TDV6" 
+			modelYear="2011" 
+			variant="豪华版" 
+			bodyStyle="硬顶" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="红色" 
+			colorGroup="Red" 
+			interiorColor="黑色" 
+			interiorMaterial="皮革" 
+			dealerName="常州路捷汽车销售服务有限公司" 
+			dealerId="9999920" 
+			dealerCode="CZA" 
+			addressLine1="江苏省常州市武进汽车城B区12号" 
+			city="常州" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="13701501679" 
+			faxNumber="0519-89801515" 
+			webSiteAddress="" 
+			emailAddress="zhoulei@jsmdag.com" 
+			longitude="31.6966" 
+			latitude="11.9961">
+		    <features>
+		    	
+		        <feature description="智能型雨量感应式雨刮器" group="" importance="" priority="1" />
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="2" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="3" />
+		        <feature description="EBA电子紧急制动辅助系统" group="" importance="" priority="4" />
+		        <feature description="电加热后视镜" group="" importance="" priority="5" />
+		        <feature description="自动恒温控制系统" group="" importance="" priority="6" />
+		        <feature description="真皮座椅电动调节，带加热功能" group="" importance="" priority="7" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4783" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2004" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1874" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2745" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="2993" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="10.7" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="180(245)/4000" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="2603" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="84" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="3070" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="35" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALFA2BGXCH283860"
+			registration=""
+			regDate="2012-04-28 00:00:00"
+			mileage="2335"
+			isSelectEditionCertified="false"
+			retailPrice="598000.00"
+			marque="Land Rover" 
+			series="路虎神行者"
+			model="2.0 Td4" 
+			modelYear="2011" 
+			variant="豪华版" 
+			bodyStyle="硬顶" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="梧桐银" 
+			colorGroup="Grey" 
+			interiorColor="杏色" 
+			interiorMaterial="皮革" 
+			dealerName="常州路捷汽车销售服务有限公司" 
+			dealerId="9999920" 
+			dealerCode="CZA" 
+			addressLine1="江苏省常州市武进汽车城B区12号" 
+			city="常州" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="13701501679" 
+			faxNumber="0519-89801515" 
+			webSiteAddress="" 
+			emailAddress="zhoulei@jsmdag.com" 
+			longitude="31.6966" 
+			latitude="11.9961">
+		    <features>
+		    	
+		        <feature description="雨量感应式雨刮器" group="" importance="" priority="1" />
+		        <feature description="氙气前大灯，带自动清洗装置" group="" importance="" priority="2" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="3" />
+		        <feature description="EBA电子紧急制动辅助系统" group="" importance="" priority="4" />
+		        <feature description="电加热后视镜" group="" importance="" priority="5" />
+		        <feature description="自动恒温控制系统" group="" importance="" priority="6" />
+		        <feature description="真皮座椅电动调节，带加热功能" group="" importance="" priority="7" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4500" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2005" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1765" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="2000" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="7.8" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="140(190)/4000" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1805" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="68" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="700" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="42" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALFA2BG9CH295045"
+			registration=""
+			regDate="2012-04-28 00:00:00"
+			mileage="3890"
+			isSelectEditionCertified="false"
+			retailPrice="538000.00"
+			marque="Land Rover" 
+			series="路虎神行者"
+			model="2.0 Td4" 
+			modelYear="2012" 
+			variant="舒适版" 
+			bodyStyle="硬顶" 
+			doors="4" 
+			transmission="Tiptronic"
+			color="黑色" 
+			colorGroup="Black" 
+			interiorColor="黑色" 
+			interiorMaterial="部分皮革" 
+			dealerName="常州路捷汽车销售服务有限公司" 
+			dealerId="9999920" 
+			dealerCode="CZA" 
+			addressLine1="江苏省常州市武进汽车城B区12号" 
+			city="常州" 
+			state="江苏" 
+			zipCode="" 
+			telephoneNumber1="13701501679" 
+			faxNumber="0519-89801515" 
+			webSiteAddress="" 
+			emailAddress="zhoulei@jsmdag.com" 
+			longitude="31.6966" 
+			latitude="11.9961">
+		    <features>
+		    	
+		        <feature description="（四通道全地形）ABS系统+EBD电子制动力分配" group="" importance="" priority="1" />
+		        <feature description="CMMB数字电视" group="" importance="" priority="2" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="3" />
+		        <feature description="EBA电子紧急制动辅助系统" group="" importance="" priority="4" />
+		        <feature description="HDC陡坡缓降系统" group="" importance="" priority="5" />
+		        <feature description="中央电子差速锁" group="" importance="" priority="6" />
+		        <feature description="侧门防撞钢梁" group="" importance="" priority="7" />
+		        <feature description="HDC陡坡缓降系统（带GRC坡度释放控制功能）" group="" importance="" priority="8" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4500" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2005" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1765" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="2000" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="7.8" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="140(190)/4000" unit="" />
+		        <techSpecItem specification="整备质量（kg）" order="9" group="Tech Spec" groupOrder="1" value="1805" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="68" unit="" />
+		        <techSpecItem specification="载重质量（kg）" order="11" group="Tech Spec" groupOrder="1" value="700" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="42" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+		<vehicle 												
+			vin="SALFA2BA1BH266584"
+			registration=""
+			regDate="2011-10-01 00:00:00"
+			mileage="17000"
+			isSelectEditionCertified="true"
+			retailPrice="528000.00"
+			marque="Land Rover" 
+			series="路虎神行者"
+			model="3.2 i6" 
+			modelYear="2011" 
+			variant="HSE" 
+			bodyStyle="多功能旅行车" 
+			doors="3" 
+			transmission="Tiptronic"
+			color="戈尔韦绿" 
+			colorGroup="Green" 
+			interiorColor="檀木黑" 
+			interiorMaterial="皮革" 
+			dealerName="北京兰德陆华汽车销售有限公司" 
+			dealerId="9999921" 
+			dealerCode="BJB" 
+			addressLine1="北京市海淀区巨山路1号" 
+			city="北京" 
+			state="北京" 
+			zipCode="" 
+			telephoneNumber1="18610515699" 
+			faxNumber="010-82592228" 
+			webSiteAddress="" 
+			emailAddress="youli@htlh.com" 
+			longitude="39.9541" 
+			latitude="11.6229">
+		    <features>
+		    	
+		        <feature description="（四通道全地形）ABS系统+EBD电子制动力分配" group="" importance="" priority="1" />
+		        <feature description="全尺寸铝合金备胎" group="" importance="" priority="2" />
+		        <feature description="集成音响控制的多功能真皮方向盘" group="" importance="" priority="3" />
+		        <feature description="豪华车载导航系统" group="" importance="" priority="4" />
+		        <feature description="真皮座椅电动调节，带加热功能" group="" importance="" priority="5" />
+		        <feature description="电动天窗+Alpine全景式观景顶窗" group="" importance="" priority="6" />
+		        <feature description="双区全自动空调" group="" importance="" priority="7" />
+		        <feature description="电动折叠外后视镜（带加热、记忆功能）" group="" importance="" priority="8" />
+		        <feature description="车载蓝牙电话功能" group="" importance="" priority="9" />   
+		    </features>
+		    <techSpecItems>
+		    	
+		        <techSpecItem specification="长度(mm)" order="1" group="Tech Spec" groupOrder="1" value="4500" unit="" />
+		        <techSpecItem specification="宽度(mm)" order="2" group="Tech Spec" groupOrder="1" value="2005" unit="" />
+		        <techSpecItem specification="高度(mm)" order="3" group="Tech Spec" groupOrder="1" value="1765" unit="" />
+		        <techSpecItem specification="轴距(mm)" order="4" group="Tech Spec" groupOrder="1" value="2660" unit="" />
+		        <techSpecItem specification="排气量(L)" order="5" group="Tech Spec" groupOrder="1" value="3.2" unit="" />
+		        <techSpecItem specification="驱动方式" order="6" group="Tech Spec" groupOrder="1" value="四驱" unit="" />
+		        <techSpecItem specification="油耗(L/100km)" order="7" group="Tech Spec" groupOrder="1" value="11.6" unit="" />
+		        <techSpecItem specification="最大功率(kw(ps)/rpm)" order="8" group="Tech Spec" groupOrder="1" value="171(233)/6300" unit="" />
+		        <techSpecItem specification="整备质量(kg)" order="9" group="Tech Spec" groupOrder="1" value="1775" unit="" />
+		        <techSpecItem specification="油箱容积(l)" order="10" group="Tech Spec" groupOrder="1" value="70" unit="" />
+		        <techSpecItem specification="载重质量(kg)" order="11" group="Tech Spec" groupOrder="1" value="730" unit="" />
+		        <techSpecItem specification="最大爬坡度(&#xb0;)" order="12" group="Tech Spec" groupOrder="1" value="42" unit="" />
+		    </techSpecItems>
+		    <images>
+		    	
+		        
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1024.jpg" targetMedium="Standard_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1024.jpg" targetMedium="Thumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1024.jpg" targetMedium="Supersize_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1024.jpg" targetMedium="SupersizeThumbnail_1024" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Standard_1280.jpg" targetMedium="Standard_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Thumbnail_1280.jpg" targetMedium="Thumbnail_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/Supersize_1280.jpg" targetMedium="Supersize_1280" shotType="1" />
+				<image url="http://2ndbyteImagesDelivery.iAutos.cn/StockImages/LRCN/default/SupersizeThumbnail_1280.jpg" targetMedium="SupersizeThumbnail_1280" shotType="1" />        
+		    </images>
+		    <schemes />
+		</vehicle>
+	
+	</vehicles>
+	
