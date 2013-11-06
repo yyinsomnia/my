@@ -1,0 +1,55 @@
+接上一章autoload找到new CWebApplication($config)
+分析class CWebApplication
+CWebApplication 没有构造函数 查看其父类的CApplication 构造函数
+public function __construct($config=null)  //$config is string(path of the config file) or array(configuration information)
+{
+	Yii::setApplication($this);
+
+	// set basePath at early as possible to avoid trouble
+	if(is_string($config))
+		$config=require($config);
+	if(isset($config['basePath']))
+	{
+		$this->setBasePath($config['basePath']);
+		unset($config['basePath']);
+	}
+	else
+		$this->setBasePath('protected');
+	Yii::setPathOfAlias('application',$this->getBasePath());
+	Yii::setPathOfAlias('webroot',dirname($_SERVER['SCRIPT_FILENAME']));
+	Yii::setPathOfAlias('ext',$this->getBasePath().DIRECTORY_SEPARATOR.'extensions');
+
+	$this->preinit(); //空哒
+
+	$this->initSystemHandlers();//Initializes the exceptions and error handlers. the next chapter....
+	$this->registerCoreComponents();//函数里面写了一堆组件
+
+	$this->configure($config); //foreach($config as $ke=>$value) $this->$key=$value; 貌似要去看CComponent::__set()
+	$this->attachBehaviors($this->behaviors); //to be attached to the component 需要深入理解
+	$this->preloadComponents(); //$config 里面可以配置preload的组件
+
+	$this->init();
+}
+
+//store the application instance in the class static member
+public static function setApplication($app)
+{
+	if(self::$_app===null || $app===null)
+		self::$_app=$app;
+	else
+		throw new CException(Yii::t('yii','Yii application can only be created once.'));
+}
+
+protected function init()
+{
+	parent::init();
+	// preload 'request' so that it has chance to respond to onBeginRequest event.
+	$this->getRequest();
+}
+
+public function getRequest()
+{
+	return $this->getComponent('request');
+}
+
+CHttpRequest
