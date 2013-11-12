@@ -52,4 +52,5 @@ public function getRequest()
 	return $this->getComponent('request');
 }
 
-CHttpRequest
+CHttpRequest  
+the next chapter!
