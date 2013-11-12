@@ -1,1 +1,54 @@
 CHttpRequest
+该类对http&https进行了较为完备的封装
+
+首先进行了get_magic_quotes_gpc()的验证
+如果开启了 去掉这些转义，5.4中该特性被删除，直接返回false
+此类涉及不少php基础知识，将集中一个专题讲解，先跑完整个流程
+
+现在找到CWebApplication::run()
+没找到 去父类CApplication中找到
+
+	public function run()
+	{
+		if($this->hasEventHandler('onBeginRequest'))
+			$this->onBeginRequest(new CEvent($this));
+		register_shutdown_function(array($this,'end'),0,false);
+		$this->processRequest();
+		if($this->hasEventHandler('onEndRequest'))
+			$this->onEndRequest(new CEvent($this));
+	}
+
+大概的想法应该是处理请求之前和之后再进行一起处理
+不太明白的是为什么还要再写一个register_shutdown_function
+难道是最后结束之前再次检查以确保想要再处理请求完之后的那些工作一定执行完了？
+
+直接进入$this->processRequest()
+CApplication::processRequest() is abstract method
+跳回CWebApplication::processRequest()
+有一个catchAllRequest的类属性 
+用来捕获所有的请求然后处理，一般在开启维护模式时候被触发
+如果不是 则进入正常route
+$route=$this->getUrlManager()->parseUrl($this->getRequest());
+$this->getUrlManager()返回一个CUrlManager的实例
+$this->getRequest()返回CHttpRequest的实例
+CUrlManager 此类也要单独讲解 忽略细节继续
+$route is string the route (controllerID/actionID) and perhaps GET parameters in path format.
+
+$this->runController($route);
+
+	public function runController($route)
+	{
+		if(($ca=$this->createController($route))!==null)
+		{
+			list($controller,$actionID)=$ca;//$controller是个对象，$actionID是一个字符串
+			$oldController=$this->_controller;
+			$this->_controller=$controller;
+			$controller->init();
+			$controller->run($actionID);
+			$this->_controller=$oldController;
+		}
+		else
+			throw new CHttpException(404,Yii::t('yii','Unable to resolve the request "{route}".',
+				array('{route}'=>$route===''?$this->defaultController:$route)));
+	}
+
