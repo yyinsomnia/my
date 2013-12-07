@@ -1,0 +1,1 @@
+<?php class ClassB { var $val = 'Hello from class "ClassB"'; } ?>
