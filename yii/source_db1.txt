@@ -1,0 +1,182 @@
+查看yii的db 先从CDbConnetion 开始
+通过CDbConnection的property可以看出其相关功能
+$connectionString
+$username
+$password
+这个是pdo的连接参数 第一个就是dsn
+$autoConnect=true //初始化组件的时候建立数据库链接
+$charset //5.3.6+ charset直接写在dsn里面
+$schemaCachingDuration metadata缓存的时间
+$schemaCachingExclude  哪些表的metadata不被缓存 array list
+$schemaCacheID 缓存应用组件的id 这里说默认指向primary cache application component 但是没找到在哪配置的说哪个是primary CApplication::registerCoreComponent 里面也没有相关的注册信息
+$queryCachingDuration //缓存时间
+$queryCachingDependency //缓存依赖？有待理解
+$queryCachingCount //缓存sql语句的数量
+$queryCacheID //缓存组件的id
+$emulatePrepare //是否预执行竞争，默认用本地的prepare 但是mysql貌似本地prepare 有bug所以要设置成true 用pdo的prepare
+$enableParamLogging //绑定参数是否loggin 开启方便调试sql的 不过性能会打折 开发环境开启
+$enableProfiling //sql语句分析的 方便找到数据库层面的瓶颈，也是在开发环境开启
+$tablePreifx //数据库表前缀 {{tableName}}这么返回tablename时会自动加上前缀
+$initSQLs // db connection is established these sals should be executed
+$driverMap //支持的数据库驱动基于pdo
+$pdoClass = ‘PDO’ //难道还能是别的？
+$_attributes = array(); //组件存放property的？
+$_active=false; //待理解，这个和$autoConnect有啥关系
+$_pdo; //PDO的实例应该放在这儿
+$_transaction; //事物相关，怎么用待理解
+$_schema; //架构。。待理解
+	
+	public function __sleep()
+	{
+		$this->close();
+		return array_keys(get_object_vars($this));
+	}
+
+这里学到一个新函数
+get_object_vars()
+Return an associative array of defined object accessible non-static properties for the specified object in scope.pay attention the accessible and non-static
+__sleep()
+serialize() checks if your class has a function with the magic name __sleep(). If so, that function is executed prior to any serialization. It can clean up the object and is supposed to return an array with the names of all variables of that object that should be serialized. If the method doesn't return anything then NULL is serialized and E_NOTICE is issued.
+本来的用法是对象很多但不需要全部保存可以设置保存哪些properties 但在这里应该是全部保存了
+可能是为了clean up掉这个对象
+与之相反的是 unserialize() __wakeup()
+	public function init()
+	{
+		parent::init();
+		if($this->autoConnect)
+			$this->setActive(true);
+	}
+调用父类CApplicationComponent::init() 联系组件那一章 里面会有设置$this->_initialized=true;
+千万别忘了喔，然后如果设置的是自动链接则设置活动
+	public function setActive($value)
+	{
+		if($value!=$this->_active) //只要需要设置的状态和现在状态不一样，肯定就需要做点啥对吧
+		{
+			if($value) 
+				$this->open();
+			else
+				$this->close();
+		}
+	}
+
+	protected function open()
+	{
+		if($this->_pdo===null)
+		{
+			if(empty($this->connectionString))
+				throw new CDbException('CDbConnection.connectionString cannot be empty.');
+			try
+			{
+				Yii::trace('Opening DB connection','system.db.CDbConnection');
+				$this->_pdo=$this->createPdoInstance(); //果然_pdo 是放pdo实例的
+				$this->initConnection($this->_pdo);
+				$this->_active=true; //实例化并且初始化以后设置为true
+			}
+			catch(PDOException $e)
+			{
+				if(YII_DEBUG)
+				{
+					throw new CDbException('CDbConnection failed to open the DB connection: '.
+						$e->getMessage(),(int)$e->getCode(),$e->errorInfo);
+				}
+				else
+				{
+					Yii::log($e->getMessage(),CLogger::LEVEL_ERROR,'exception.CDbException');
+					throw new CDbException('CDbConnection failed to open the DB connection.',(int)$e->getCode(),$e->errorInfo);
+				}
+			}
+		}
+	}
+来看看如何是实例化pdo
+	protected function createPdoInstance()
+	{
+		$pdoClass=$this->pdoClass;//基本就是‘pdo’啊 难道还能是？
+		if(($pos=strpos($this->connectionString,':'))!==false)
+		{	//其实这也是iii填了pdo的坑pdo的api并不是针对所有driver都实现了的
+			$driver=strtolower(substr($this->connectionString,0,$pos));
+			if($driver==='mssql' || $driver==='dblib’)//牛逼的来了 针对这2个driver 进行了一次封装
+				$pdoClass='CMssqlPdoAdapter'; //extends PDO 实现了一些该驱动下pdo没有实现的方法 
+			elseif($driver==='sqlsrv')
+				$pdoClass='CMssqlSqlsrvPdoAdapter'; //extends PDO 同上
+		}
+
+		if(!class_exists($pdoClass))
+			throw new CDbException(Yii::t('yii','CDbConnection is unable to find PDO class "{className}". Make sure PDO is installed correctly.',
+				array('{className}'=>$pdoClass)));
+
+		@$instance=new $pdoClass($this->connectionString,$this->username,$this->password,$this->_attributes);
+
+		if(!$instance)
+			throw new CDbException(Yii::t('yii','CDbConnection failed to open the DB connection.'));
+
+		return $instance;
+	}
+继续看看如何初始化connect
+	protected function initConnection($pdo)
+	{
+		$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);//set error reporting,throw exceptions
+		if($this->emulatePrepare!==null && constant('PDO::ATTR_EMULATE_PREPARES'))
+			$pdo->setAttribute(PDO::ATTR_EMULATE_PREPARES,$this->emulatePrepare);
+		if($this->charset!==null)
+		{
+			$driver=strtolower($pdo->getAttribute(PDO::ATTR_DRIVER_NAME));
+			if(in_array($driver,array('pgsql','mysql','mysqli')))
+				$pdo->exec('SET NAMES '.$pdo->quote($this->charset));
+		}
+		if($this->initSQLs!==null) //属性里面的sql语句在这里执行了
+		{
+			foreach($this->initSQLs as $sql)
+				$pdo->exec($sql);
+		}
+	}
+constant($name)返回名为$name的常量的值，官方说在不知道常量名字的时候这个函数很管用。。不知道名字也就是不知道$name啊
+不过后来解释说常量名可以存在变量里面或者通过函数返回。。貌似还有点作用，这里应该是返回PDO定义常量的值，个人觉得不用也行啊
+这里有点疑问啊为什么要加上&&constant(‘PDO::ATTR_EMULATE_PREPARES’)
+
+	protected function close()
+	{
+		Yii::trace('Closing DB connection','system.db.CDbConnection');
+		$this->_pdo=null;
+		$this->_active=false;
+		$this->_schema=null;
+	}
+关闭的函数巨简单啊
+	public function cache($duration, $dependency=null, $queryCount=1)
+	{
+		$this->queryCachingDuration=$duration;
+		$this->queryCachingDependency=$dependency;
+		$this->queryCachingCount=$queryCount;
+		return $this;
+	}
+cache就是赋值啊，啥也没干。。。
+
+	public function getSchema()
+	{
+		if($this->_schema!==null)
+			return $this->_schema;
+		else
+		{
+			$driver=$this->getDriverName();
+			if(isset($this->driverMap[$driver])) //为什么这里要用createComponent 而不是直接new呢
+				return $this->_schema=Yii::createComponent($this->driverMap[$driver], $this);
+			else
+				throw new CDbException(Yii::t('yii','CDbConnection does not support reading schema for {driver} database.',
+					array('{driver}'=>$driver)));
+		}
+	}
+
+	public function quoteValue($str)
+	{
+		if(is_int($str) || is_float($str))
+			return $str;
+
+		$this->setActive(true);
+		if(($value=$this->_pdo->quote($str))!==false)
+			return $value;
+		else  // the driver doesn't support quote (e.g. oci)
+			return "'" . addcslashes(str_replace("'", "''", $str), "\000\n\r\\\032") . "'";
+	}
+这个可以结合防sql注入来讲
+
+还有很多设置pdo属性的函数就不一一讲了
+另外还有一些方法跟其他的class有交互 在接下来会慢慢讲解

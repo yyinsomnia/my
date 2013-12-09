@@ -154,3 +154,6 @@ CApplicationComponent::init()
 		$this->_initialized=true; //标记组件已经初始化
 	}
 各个组件都可以override 这个 方法 不过要确定 call the parent implementation 
+
+今天看了基本所有的Yii的class 都是inherit from CComponent
+举个例子，CController extends CBaseController, CBaseController extends CComponent
