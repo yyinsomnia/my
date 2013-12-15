@@ -21,8 +21,8 @@ class Bus extends Car
 
 	public function getLun()
 	{
-		return parent::getLun();
-		//return $this->_lunzi;
+		//return parent::getLun();
+		return $this->_lunzi;
 	}
 }
 
@@ -38,6 +38,7 @@ $t->setLun('fuqin lunzi');
 $b->_lunzi = 'Bus lunzi';
 $t->_lunzi = 'Taxi lunzi';
 echo $b->getLun();
+echo $t->getLun();
 var_dump($b);
 var_dump($t);
 /*
