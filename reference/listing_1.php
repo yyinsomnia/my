@@ -47,6 +47,6 @@ $dog = $arr7[0];
 $arr8 = $arr7;
 $arr8[0] = 2;
 
-echo '$arr7[0] = '.$arr7[0]. '<br />'; //2
+echo '$arr7[0] = '.$arr7[0]. '<br />'; //1
 echo '$dog = '.$dog. '<br />'; //1
 echo '$arr8[0] = '.$arr8[0]. '<br />'; //2
