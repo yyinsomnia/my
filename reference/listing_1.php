@@ -8,6 +8,10 @@
  * 怎么写才会不是引用赋值咧？
  */
 
+//以上理解错了，正确的理解在这里
+//Doing a normal (not by reference) assignment with a reference 
+//on the right side does not turn the left side into a reference, 
+//but references inside arrays are preserved in these normal assignments
 $a = 1;
 $b = &$a;
 
@@ -22,8 +26,7 @@ echo '$c = '.$c. '<br />'; //2
 
 $arr1 = [1];
 $babala = &$arr1[0];
-$arr2 = $arr1;
-
+$arr2 = $arr1; //$arr2[0]是一个引用变量！
 $arr2[0]++;
 
 echo '$arr1[0] = '.$arr1[0]. '<br />'; //2
@@ -35,6 +38,15 @@ $carrot = $arr5[0];
 $arr6 = $arr5;
 $arr6[0]++;
 
-echo '$arr5[0] = '.$arr1[0]. '<br />'; //2
-echo '$carrot = '.$carrot. '<br />'; //2
+echo '$arr5[0] = '.$arr5[0]. '<br />'; //1
+echo '$carrot = '.$carrot. '<br />'; //1
 echo '$arr6[0] = '.$arr6[0]. '<br />'; //2
+
+$arr7 = [1];
+$dog = $arr7[0];
+$arr8 = $arr7;
+$arr8[0] = 2;
+
+echo '$arr7[0] = '.$arr7[0]. '<br />'; //2
+echo '$dog = '.$dog. '<br />'; //1
+echo '$arr8[0] = '.$arr8[0]. '<br />'; //2
