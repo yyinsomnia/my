@@ -1,12 +1,12 @@
 <?php
 /**
-* it is so intesting!
-* 这么看数组的赋值默认是引用传值
-* 请参照手册http://cn2.php.net/manual/en/language.references.whatdo.php
-* 奇怪的是中文版的手册居然没有这一块
-* 这么做的目的是神马呢？难道是节约内存空间？
-* 怎么写才会不是引用赋值咧？
-*/
+ * it is so intesting!
+ * 这么看数组的赋值默认是引用传值
+ * 请参照手册http://cn2.php.net/manual/en/language.references.whatdo.php
+ * 奇怪的是中文版的手册居然没有这一块
+ * 这么做的目的是神马呢？难道是节约内存空间？
+ * 怎么写才会不是引用赋值咧？
+ */
 
 $a = 1;
 $b = &$a;
