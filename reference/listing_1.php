@@ -8,10 +8,13 @@
  * 怎么写才会不是引用赋值咧？
  */
 
-//以上理解错了，正确的理解在这里
-//Doing a normal (not by reference) assignment with a reference 
-//on the right side does not turn the left side into a reference, 
-//but references inside arrays are preserved in these normal assignments
+/**
+ * 以上理解错了，正确的理解在这里
+ * Doing a normal (not by reference) assignment with a reference 
+ * on the right side does not turn the left side into a reference, 
+ * but references inside arrays are preserved in these normal assignments
+ */
+
 $a = 1;
 $b = &$a;
 
