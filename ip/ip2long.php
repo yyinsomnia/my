@@ -1,6 +1,8 @@
 <?php
 
-$ip = '219.237.242.48';
+$ip = '182.18.15.2';
+echo ip2long($ip);//ip2long 有可能返回负数
+echo '<br />';
 echo sprintf("%u",ip2long($ip));//ip2long 有可能返回负数
 echo '<br />';
 $arr = explode('.', $ip);
