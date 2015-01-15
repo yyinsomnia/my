@@ -2,4 +2,7 @@
 
 $a = array('id'=>2,'name'=>'zhangfei','date'=>'2013-01-01');
 $a = array(0=>'aaa', 2=>'sf');
-echo json_encode($a);
+echo json_encode($a),'<br />';
+
+$b = false;
+var_dump(json_decode($b));
